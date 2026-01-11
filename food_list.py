@@ -28,7 +28,7 @@ pantry = [
     ),
     Ingredient(
         id=7, name="Arroz Integral", type=[IngredientType.BASE],
-        kcal=350, carbs=72, protein=7.6, fat=2.8
+        kcal=350, carbs=72, protein=7.6, fat=2.8, is_batch=True
     ),
     Ingredient(
         id=8, name="Champiñones", type=[IngredientType.COMPLEMENT],
@@ -52,7 +52,7 @@ pantry = [
     ),
     Ingredient(
         id=13, name="Lentejas", type=[IngredientType.BASE],
-        kcal=353, carbs=60.08, protein=25.81, fat=1.06
+        kcal=353, carbs=60.08, protein=25.81, fat=1.06, is_batch=True
     ),
     Ingredient(
         id=14, name="Pechuga de pollo", type=[IngredientType.BASE],
@@ -101,7 +101,7 @@ pantry = [
     ),
     Ingredient(
         id=25, name="Garbanzos", type=[IngredientType.BASE],
-        kcal=180, carbs=29.98, protein=9.54, fat=2.99
+        kcal=180, carbs=29.98, protein=9.54, fat=2.99, is_batch=True
     ),
     Ingredient(
         id=26, name="Carne picada mix", type=[IngredientType.BASE],
