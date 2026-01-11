@@ -18,13 +18,13 @@ class IngredientSource(str, Enum):
 class Ingredient(BaseModel):
   id: int
   name: str
-  kcal: PositiveFloat
+  kcal: float
   type: List[IngredientType]
   # type: IngredientType | None = None
-  kcal: PositiveFloat
-  carbs: PositiveFloat
-  protein: PositiveFloat
-  fat: PositiveFloat
+  kcal: float
+  carbs: float
+  protein: float
+  fat: float
   source: Optional[IngredientSource] = None
 
   @model_validator(mode = 'after')
